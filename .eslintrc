@@ -1,0 +1,34 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "plugins": [
+    "react-hooks",
+    "cypress"
+  ],
+  "rules": {
+    "camelcase": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/forbid-prop-types": 0,
+    "spaced-comment": ["error", "always", { "exceptions": ["-", "+", "/"] }],
+    "max-len": ["warn", { "code": 200 }],
+    "react-hooks/rules-of-hooks": "error",
+    "react/jsx-one-expression-per-line": 0,
+    "react/no-danger": 0,
+    "import/no-named-as-default": 0,
+    "import/prefer-default-export": 0,
+    "arrow-body-style": ["warn", "as-needed"]
+  },
+  "overrides": [
+    {
+      "files": [ "components/**/*.stories.js" ],
+      "rules": {
+        "import/no-extraneous-dependencies": 0
+      }
+    }
+  ],
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  }
+}

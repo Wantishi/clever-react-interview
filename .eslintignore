@@ -1,0 +1,12 @@
+.*
+node_modules/
+src/**/*.stories.js
+jest-preprocess.js
+jest.config.js
+jest.loadershim.js
+.vscode/
+*.config.js
+*.setup.js
+generator/esm-start.js
+cypress/
+*/**/spec/

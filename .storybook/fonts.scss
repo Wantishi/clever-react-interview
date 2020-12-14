@@ -1,0 +1,99 @@
+/*
+Font List
+Rubik
+  - 500 | Normal
+  - 400 | Normal
+
+Inter
+  - 500 | Normal
+  - 300 | Normal
+  - 300 | Italic
+*/
+
+body {
+  font-family: 'Inter', 'sans-serif', 'helvetica';
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+
+h1, h2 {
+  font-family: 'Rubik', 'sans-serif', 'helvetica';
+  font-weight: 500;
+  font-style: normal;
+}
+
+h1 a, h2 a {
+  font-family: 'Rubik', 'sans-serif', 'helvetica';
+  font-weight: 500;
+  font-style: normal;
+}
+
+h3, h4, h5, h6 {
+  font-family: 'Rubik', 'sans-serif', 'helvetica';
+  font-weight: 500;
+  font-style: normal;
+  color: #22293b;
+}
+
+h3 a, h4 a, h5 a, h6 a {
+  font-family: 'Rubik', 'sans-serif', 'helvetica';
+  font-weight: 500;
+  font-style: normal;
+  color: #22293b;
+}
+
+th {
+  font-family: 'Rubik', 'sans-serif', 'helvetica';
+  font-weight: 500;
+  font-style: normal;
+}
+
+p {
+  font-family: 'Inter', 'sans-serif', 'helvetica';
+  font-weight: 300;
+  font-style: normal;
+}
+
+p strong, p b {
+  font-family: inherit;
+  font-weight: 500;
+  font-style: inherit;
+}
+
+p i, p em {
+  font-family: inherit;
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* Global Font Classes */
+.rubik-bold {
+  font-family: 'Rubik', 'sans-serif', 'helvetica';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.rubik-normal {
+  font-family: 'Rubik', 'sans-serif', 'helvetica';
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inter-bold {
+  font-family: 'Inter', 'sans-serif', 'helvetica';
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inter-normal {
+  font-family: 'Inter', 'sans-serif', 'helvetica';
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inter-normal-italic {
+  font-family: 'Inter', 'sans-serif', 'helvetica';
+  font-weight: 300;
+  font-style: italic;
+}
