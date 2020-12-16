@@ -13,7 +13,7 @@
     "classnames": "2.2.6",
     "cuid": "2.1.8",
     "lazysizes": "5.2.0",
-    "lodash": "4.17.15",
+    "lodash": "4.17.19",
     "mdn-polyfills": "^5.20.0",
     "prop-types": "^15.7.2",
     "query-string": "6.12.1",
