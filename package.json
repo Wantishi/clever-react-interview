@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@babel/runtime": "7.9.6",
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "classnames": "2.2.6",
     "cuid": "2.1.8",
     "lazysizes": "5.2.0",
